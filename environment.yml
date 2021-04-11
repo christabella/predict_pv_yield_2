@@ -33,3 +33,6 @@ dependencies:
   # PV & Geospatial
   - pvlib
   - pyproj
+
+  # Organizing experiments
+  - conda-forge::neptune-client
