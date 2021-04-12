@@ -3,6 +3,7 @@ channels:
   - pytorch
   - pvlib
   - conda-forge
+  - anaconda
 dependencies:
   - python>=3.8
   
@@ -36,3 +37,4 @@ dependencies:
 
   # Organizing experiments
   - conda-forge::neptune-client
+  - anaconda::psutil  # Have Neptune log hardware consumption
